@@ -1,0 +1,89 @@
+/*** Style Sheet ***/
+
+html,body, body * { 
+    box-sizing: border-box; 
+    font-family: 'Open Sans', sans-serif; 
+    margin:0;
+    padding:0;
+    color:inherit;
+    background-color:inherit;
+ }
+ body {
+    background-image: url(backpic.jpg);
+    background-size:  cover;
+    background-position:center center;
+    
+  }
+  .container {
+     
+      padding-top: 50px;
+      padding-bottom: 20px;
+      /* padding: auto; */
+      
+  }
+
+  .sub-container{
+      height: 530px;
+      width: 450px;
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+      /* padding:auto; */
+      /* justify-content: center; */
+      align-items: center;
+      border-radius: 7px;
+      box-shadow: 2px 4px 7px rgba(5,7,15,0.2);
+       
+      background: linear-gradient(180deg, rgb(65, 40, 83) 0%, rgb(114, 88, 173) 58%, rgba(255,255,255,0.1407913507199755) 82%);
+      color:#ffffff;
+  }
+
+  .elem {
+      margin-bottom: 15px;
+      padding: auto;
+  }
+
+  #author {
+      margin-top: 30px;
+      margin-bottom: 40px;
+      margin-left: 200px;
+  }
+
+  #quote {
+      display: block;
+      height: 130px;
+      width: 350px;
+      font-family: 'Allura'; 
+      font-size: 1.7rem;
+      margin-top: 30px;
+  }
+
+  #btn {
+      height:40px;
+      width: 120px;
+      font-size: 1.1em;
+      border-radius: 10px;
+      background-color: aqua;
+      color: red;
+      
+      
+  }
+  button:focus {
+      outline: 0px;opacity: 1;
+
+  }
+  button{
+    cursor: pointer;
+  }
+
+  #tweet {
+      background-image: url(Twitter-Logo.png);
+      background-size:  cover;
+      background-position:center center;
+      height: 45px;
+      width: 50px;
+      border: none;
+      margin-top: 70px;
+  }
+
