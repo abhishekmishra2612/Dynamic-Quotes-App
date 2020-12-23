@@ -6,7 +6,10 @@ I have fetched the API using JavaScript.
 
 ## Some screenshots of this web app are:
 To get new different quote we have to click on "New Quote" button. i.e. Every time we click on "New Quote" button we get a new different quote.
+
 ![screenshot1](https://user-images.githubusercontent.com/41646536/102990331-2f129280-453d-11eb-99ab-6f40fef75b59.png)
 
+
 If we click on the Twitter logo which is located at the bottom then that quote will be pasted on the tweet window of twitter automatically.
+
 ![screenshot3](https://user-images.githubusercontent.com/41646536/102990601-a811ea00-453d-11eb-8ac2-27fcd2f22f59.png)
